@@ -1,0 +1,19 @@
+.ct-container {
+    width: 1200px;
+    height: 692px;
+    top: 922px;
+    left: 0; /* Assuming you want the container aligned to the left */
+    position: absolute; /* Required to position the container using top and left */
+    gap: 0; /* This property is used with flexbox or grid layout containers; remove if not needed */
+    opacity: 0; /* This will make the container fully transparent */
+    background: #C8C8C8;
+    border-radius: 12px 0 0 0; /* Add this if you need specific border radius */
+    border: 1px solid #3C9AF0; /* Add this if you need specific border styling */
+  }
+  
+  header h1 {
+    text-align: center; /* Center the text in the header */
+    margin: 0;
+    padding: 20px; /* Add some padding to space the text from the container edges */
+  }
+  
